@@ -27,12 +27,35 @@
 // console.log(`hi, you're too young ${Age}`);
 
 
-// COMBINATION
+// DATA TYPE IN JS
+// String
+let desc = `This step we're gonna learn about JS `;
+// integer
+let type = 16;
+// float
+let version = 16.9;
+//undefined
+let until;
+//null
+let giveUp = null;
+// example of data type above
+alert(`${desc} with type is ${type} on version ${version} until ${until}, 
+Ready? Yes = press "OK" || Ready? No = ${giveUp}`);
 
-// let variable + alert
+
+
+
+// COMBINATION
+// "let" variable + alert
 let name = `Gede Astu Nugraha`;
 alert(`Welcome to the Page ${name}`);
 
-let usia = prompt(`when you was born ?`)
-alert(`you was ${usia}`);
+//"let" variable + prompt/alert with "If" condition
+let usia = prompt(`when you was born ?`);
+let operationAge = 2023 - usia;
+if(operationAge < 17){
+    alert(`you're too young`);
+}else{
+    alert(`you was ${operationAge}`);
+}
 
