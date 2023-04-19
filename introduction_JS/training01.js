@@ -1,4 +1,4 @@
-// TRAINING 01 key(Gunakan alert() dan prompt() pada kedua soal tersebut)
+// TRAINING 01 key(Gunakan salah satu alert() atau prompt() pada kedua soal tersebut)
 
 // 1. prompt() untuk mengetahui saldo akhir dari apa yang diinputkan oleh user
 let Income = prompt(`Input your Income :
