@@ -93,9 +93,9 @@ switch(totalSaldo){
         alert(`you have ${totalSaldo} please be thrifty`); 
     break;
     case totalSaldo > 20000:
-        alert(`you have ${totalSaldo} keep it up!!`)
+        alert(`you have ${totalSaldo} keep it up!!`);
     break;
     default:{
-        alert`You didn't have a saldo lately`;
+        alert(`You didn't have a saldo lately`);
     }
 }
