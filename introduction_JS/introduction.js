@@ -33,7 +33,7 @@ let desc = `This step we're gonna learn about JS `;
 // integer
 let type = 16;
 // float
-let version = 16.9;
+let version = 17;
 //undefined
 let until;
 //null
@@ -60,7 +60,9 @@ switch(version){
         version = `Demo Version`;
     }
 }
-// example "alert" of source code above
+
+
+// EXAMPLE "alert" of source code above
 alert(`${desc} with type is ${type} on version ${version} until ${until}, 
 Ready? Yes = press "OK" || Ready? No = ${giveUp}`);
 
@@ -81,3 +83,19 @@ if(operationAge < 17){
     alert(`you was ${operationAge}`);
 }
 
+//"let" variable + prompt/alert with "switch" condition
+let inputIncome = prompt(`input your income
+Rp.`)
+let inputExpend = prompt(`input your expend Rp.`)
+const totalSaldo = inputIncome - inputExpend; 
+switch(totalSaldo){
+    case totalSaldo < 20000:
+        alert(`you have ${totalSaldo} please be thrifty`); 
+    break;
+    case totalSaldo > 20000:
+        alert(`you have ${totalSaldo} keep it up!!`)
+    break;
+    default:{
+        alert`You didn't have a saldo lately`;
+    }
+}
