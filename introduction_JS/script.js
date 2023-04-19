@@ -38,7 +38,29 @@ let version = 16.9;
 let until;
 //null
 let giveUp = null;
-// example of data type above
+
+//CONDITION LOGICAL
+//IF ELSE
+if(giveUp == null){
+    giveUp = `Tap outside alert`;
+}else{
+    giveUp = `i'am Joke!`;
+}
+//SWITCH
+switch(version){
+    case 16.9:
+    version = 16.9; 
+    break;
+
+    case 17:
+    version = 17;
+    break;
+
+    default:{
+        version = `Demo Version`;
+    }
+}
+// example "alert" of source code above
 alert(`${desc} with type is ${type} on version ${version} until ${until}, 
 Ready? Yes = press "OK" || Ready? No = ${giveUp}`);
 
