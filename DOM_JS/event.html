@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event DOM - JS</title>
+</head>
+<body>
+    <!-- Event in HTML, example `onclick="alert(`hello world`)"` -->
+    <button id="btn_eventHTML" onclick="alert(`Hello World`)">Press to `Hello World`</button>
+    <!-- Event in JS, example `onclick="nameFunction()"` -->
+    <button id="btn_eventJS" onclick="changesColor()">button with function JS</button>
+
+    <!-- Mouse Event in HTML, example `oncmouseover="alert(`hello User`)"` -->
+    <!-- Mouse Event, We can use => onmouseover,onmouseout,onmousewheel,onmouseleave,onmouseenter,onmousemove,onmouseup, and onmousedown -->
+    <button id="btn_mouseEventHTML" onmouseover="alert(`Hello User`)">Press to `Hello User`</button>
+    <!-- Mouse Event in JS, example `onmouseover="nameFunction()"` -->
+    <button id="btn_mouseEventJS" onmouseover="ChangesColor(),ChangesText()" onmouseout="DefaultText()">button with function JS</button>
+    <script src="event.js"></script>
+</body>
+</html>
