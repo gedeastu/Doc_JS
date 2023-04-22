@@ -25,6 +25,14 @@ let innerText = document.createElement('i');
 innerText.innerText = `<marquee>ini pakai textContent</marquee>`;
 bodyDOM.append(innerText);
 
+// INPUT ATTRIBUTE => setAttribute(), use this when you want to create img, a, form input, DLL.
+let elementAtt = document.createElement(`img`);
+elementAtt.setAttribute(`src`,`img/BloonSky.png`);
+elementAtt.setAttribute(`width`,`100rem`);
+bodyDOM.append(elementAtt);
+
+
+
 // ANOTHER EXAMPLE : 
 // 1. "append()" with "createElement()"
 let intro = document.createElement(`h1`);
@@ -34,8 +42,8 @@ let content = document.createElement(`p`);
 content.innerHTML = `My name is Gede Astu Nugraha`;
 bodyDOM.append(content);
 let visitLink = document.createElement(`a`);
-visitLink.href(`#`);
-visitLink.innerHTML = `about me`;
+visitLink.setAttribute(`href`,`#`);
+visitLink.innerHTML = `visit`;
 bodyDOM.append(visitLink);
 
 
