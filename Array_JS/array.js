@@ -9,6 +9,10 @@ const MyArray = [`Tatum`,`Giannis`,`James`,`Brown`];
 const Player = new Array(`Haaland`,`Messi`,`Ronaldo`,`Mbappe`);
 console.log(Player[1]);
 
+//MULTIDIMENTION ARRAY
+const bookType = new Array((`Novel`,`Comic`),(`Note`,`News`));
+console.log(bookType[1][0]);
+
 
 // Displayed with console.log()
 //1. Menampilkan semua isi array hingga angka indexnya
@@ -48,6 +52,25 @@ alert(`replace player forward ${MyArray}`);
 // after with ".pop" : `Tatum`,`Giannis`,`James`,`Brown`,`Davis`,`Curry`
 MyArray.pop();
 alert(`replace player backward ${MyArray}`);
+
+
+// MEMANGGIL VALUE FUNCTION DI DALAM ARRAY
+const player = new Array(
+    {Name: function(){
+       console.log(`Klay Jackson`); 
+    }},
+    {Weapon: function(){
+        console.log(`🗡️`);
+    }},
+    {Gender: function(){
+        console.log(`Male`);
+    }}
+);
+//1.with console.log
+console.log(`Ini hasil dari console.log() => ${player[1].Weapon}`);
+//2. without console.log
+player[1].Weapon();
+
 
 // MENGETAHUI TYPE ISI DALAM ARRAY
 //includes(`value`);
