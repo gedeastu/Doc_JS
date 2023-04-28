@@ -96,6 +96,12 @@ console.log(`URUTAN SETELAH ${Game[2]} ADALAH ${after}`);
 const FirstGame = Game.shift();
 console.log(`Game Pertama adalah ${FirstGame}`);
 
+//MENGGABUNG ARRAY DENGAN ARRAY LAINNYA
+const DcChar = new Array(`Batman`,`Superman`,`The Flash`,`Wonder Woman`);
+const MarvelChar = new Array(`Captain America`,`Hulk`,`Thor`,`Black Widow`);
+const mergeChar = DcChar.concat(MarvelChar);
+console.log(mergeChar);
+
 //MENGETAHUI URUTAN TERAKHIR PADA VALUE ARRAY
 // .pop()
 const LastGame = Game.pop();
