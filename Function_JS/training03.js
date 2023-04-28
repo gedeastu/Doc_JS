@@ -1,7 +1,6 @@
 // QUESTIONS
 // 1. MAKE A MATH OPERATION
-
-// - menghitung luas lingkaran
+// - Menghitung luas lingkaran
 // Formula : L=3,14*r^2
 const LuasLingkaran = (r)=>{
     const pi = 3.14;
@@ -14,8 +13,7 @@ alert(
     `Ini adalah Hasil perhitungan Luas Lingkaran ${LuasLingkaran(jariJari)} cm`
 );
 
-
-// - menghitung luas segitiga
+// - Menghitung luas segitiga
 //Formula : L = 1/2 * Luas * Tinggi
 const LuasSegitiga = (alas,tinggi)=>{
     const half = 1/2;
@@ -26,8 +24,7 @@ let inputAlas = prompt(`Masukan Alas pada segitiga : `);
 let inputTinggi = prompt(`Masukan Tinggi pada segitiga : `);
 alert(`Ini adalah Hasil perhitungan Luas Segitiga ${LuasSegitiga(inputAlas,inputTinggi)} cm`);
 
-
-// - menghitung luas persegi panjang
+// - Menghitung luas persegi panjang
 //Formula : L = Panjang * Lebar
 const LuasPersegiPanjang = (panjang,lebar)=>{
     operationLuasPersegiPanjang = panjang*lebar;
@@ -37,8 +34,7 @@ let inputPanjang = prompt(`Masukan Panjang pada Persegi Panjang : `);
 let inputLebar = prompt(`Masukan Lebar pada Persegi Panjang : `);
 alert(`Ini adalah Hasil perhitungan Luas Persegi Panjang ${LuasPersegiPanjang(inputPanjang,inputLebar)} cm`);
 
-
-// - menghitung luas jajargenjang
+// - Menghitung luas jajargenjang
 const LuasJajarGenjang = (tinggi,alas)=>{
     operationLuasJajarGenjang = tinggi*alas;
     return operationLuasJajarGenjang;
