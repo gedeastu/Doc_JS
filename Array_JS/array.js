@@ -6,7 +6,7 @@ const MyArray = [`Tatum`,`Giannis`,`James`,`Brown`];
 //ARRAY OBJECT
 // Example Syntax => const VariableName = new Array (index[0],index[1], index[2],dst); 
 // Example Code :
-const Player = new Array(`Haaland`,``,`Ronaldo`,`Mbappe`);
+const Player = new Array(`Haaland`,`Messi`,`Ronaldo`,`Mbappe`);
 console.log(Player[1]);
 
 //MULTIDIMENTION ARRAY
