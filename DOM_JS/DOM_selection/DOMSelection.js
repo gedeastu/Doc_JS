@@ -15,7 +15,13 @@ for (let i = 0; i <= p.length; i++){
     }
 }
 
-
 // getElementsByClassName() -> HTML Collection
+const p1 = document.getElementsByClassName("p1");
+for (let i = 0; i <= p1.length;i++){
+    if(i%2 == 0){
+        p1[i].style.backgroundColor = "#89D96D";
+        p1[i].innerHTML = "This's your result";
+    }
+}
 // querySelector() -> element
 // querySelectorAll() -> nodeList
