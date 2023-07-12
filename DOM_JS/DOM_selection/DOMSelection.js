@@ -24,4 +24,13 @@ for (let i = 0; i <= p1.length;i++){
     }
 }
 // querySelector() -> element
+const selector = document.querySelector('#b p');
+p4.style.color = 'green';
+p4.style.backgroundColor = 'green';
 // querySelectorAll() -> nodeList
+
+
+//Change Node Root
+const sectionB = document.getElementById('b');
+const p4 = sectionB.querySelector('p');
+p4.style.color = "red";
